@@ -19,12 +19,11 @@ namespace Bartenders
 
         private void adminBtn_Click(object sender, EventArgs e)
         {
-
+            Form2 f2 = new Form2();
+            this.Hide();
+            f2.ShowDialog();
+            this.Close();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

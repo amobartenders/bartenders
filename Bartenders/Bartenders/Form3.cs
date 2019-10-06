@@ -16,5 +16,10 @@ namespace Bartenders
         {
             InitializeComponent();
         }
+
+        private void DescriptionTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

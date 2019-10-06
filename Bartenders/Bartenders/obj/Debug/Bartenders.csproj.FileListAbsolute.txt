@@ -8,3 +8,7 @@ C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2
 C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.CoreCompileInputs.cache
 C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.exe
 C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.pdb
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\bin\Debug\Bartenders.exe.config
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\bin\Debug\Bartenders.exe
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\bin\Debug\Bartenders.pdb
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.Form3.resources
