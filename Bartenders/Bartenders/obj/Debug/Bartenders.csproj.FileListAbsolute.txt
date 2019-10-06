@@ -1,0 +1,10 @@
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\bin\Debug\ser.mdf
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\bin\Debug\ser_log.ldf
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csprojAssemblyReference.cache
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.Form1.resources
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.Form2.resources
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.Properties.Resources.resources
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.GenerateResource.cache
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.CoreCompileInputs.cache
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.exe
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.pdb
