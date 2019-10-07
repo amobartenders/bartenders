@@ -66,5 +66,10 @@ namespace Bartenders
             ((Label)f1.Controls["naamLabel5"]).Text = naamEditBox5.Text;
             ((Label)f1.Controls["prijsLabel5"]).Text = prijsBox5.Text;
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
