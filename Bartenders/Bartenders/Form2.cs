@@ -31,5 +31,10 @@ namespace Bartenders
                 MessageBox.Show("Wrong input");
             }
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex = 0;
+        }
     }
 }
