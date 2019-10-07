@@ -49,34 +49,51 @@ namespace Bartenders
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int num1 = (int)MessageBox.Show("Click ok to connect, this might take a while! Meanwhile the application will be stuck.");
-            this.arduino = new ArduinoCom("#", "%");
-            if (this.arduino.ConnectAutomagically())
-            {
-                int num2 = (int)MessageBox.Show("Connected!");
-            }
-            else
-            {
-                int num3 = (int)MessageBox.Show("Arduino not found - reboot arduino and try again!");
-            }
+            //bACKUP CONNECTS
+            //int num1 = (int)MessageBox.Show("Click ok to connect, this might take a while! Meanwhile the application will be stuck.");
+            //this.arduino = new ArduinoCom("#", "%");
+            //if (this.arduino.ConnectAutomagically())
+            //{
+            //    int num2 = (int)MessageBox.Show("Connected!");
+            //}
+            //else
+            //{
+            //    int num3 = (int)MessageBox.Show("Arduino not found - reboot arduino and try again!");
+            //}
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.arduino.SendMessage("#SCAN_ONCE%");
-            int num1 = (int)MessageBox.Show(this.arduino.waitForMessage());
-            string res = this.arduino.getTagId(this.arduino.waitForMessage());
+            this.arduino = new ArduinoCom("#", "%");
 
-            //MessageBox.Show(res);
-
-            if (res == "0x9D0xEC0x9E0x77")
+            button3.Text = "Opstarten...";
+            if (this.arduino.ConnectAutomagically())
             {
-                MessageBox.Show("ja");
+                button3.Text = "Scan je tag.";
+                this.arduino.SendMessage("#SCAN_ONCE%");
+                this.arduino.waitForMessage();
+                string res = this.arduino.getTagId(this.arduino.waitForMessage());
+
+                //MessageBox.Show(res);
+
+                if (res == "0x9D0xEC0x9E0x77")
+                {
+                    Form3 f3 = new Form3();
+                    this.Hide();
+                    f3.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Gebruiker bestaat niet, probeer het opnieuw");
+                }
             }
             else
             {
-                MessageBox.Show("nee");
+                int num3 = (int)MessageBox.Show("Connectie mislukt, probeer het opnieuw!");
+                return;
             }
+            
 
         }
 
