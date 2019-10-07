@@ -65,7 +65,19 @@ namespace Bartenders
         {
             this.arduino.SendMessage("#SCAN_ONCE%");
             int num1 = (int)MessageBox.Show(this.arduino.waitForMessage());
-            int num2 = (int)MessageBox.Show(this.arduino.getTagId(this.arduino.waitForMessage()));
+            string res = this.arduino.getTagId(this.arduino.waitForMessage());
+
+            //MessageBox.Show(res);
+
+            if (res == "0x9D0xEC0x9E0x77")
+            {
+                MessageBox.Show("ja");
+            }
+            else
+            {
+                MessageBox.Show("nee");
+            }
+
         }
     }
 }
