@@ -30,3 +30,5 @@ C:\Gitkraken\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.CoreCo
 C:\Gitkraken\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.CopyComplete
 C:\Gitkraken\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.exe
 C:\Gitkraken\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.pdb
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\bin\Debug\MySql.Data.xml
+C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.CopyComplete

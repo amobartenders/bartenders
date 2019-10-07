@@ -67,5 +67,6 @@ namespace Bartenders
             int num1 = (int)MessageBox.Show(this.arduino.waitForMessage());
             int num2 = (int)MessageBox.Show(this.arduino.getTagId(this.arduino.waitForMessage()));
         }
+
     }
 }

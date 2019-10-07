@@ -34,37 +34,37 @@
             this.label3 = new System.Windows.Forms.Label();
             this.naamEditBox = new System.Windows.Forms.TextBox();
             this.prijsBox = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.imgBox = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.imgBox5 = new System.Windows.Forms.PictureBox();
             this.productButton5 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.prijsBox5 = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.naamEditBox5 = new System.Windows.Forms.TextBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.imgBox4 = new System.Windows.Forms.PictureBox();
             this.productButton4 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.prijsBox4 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.naamEditBox4 = new System.Windows.Forms.TextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.imgBox3 = new System.Windows.Forms.PictureBox();
             this.productButton3 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.prijsBox3 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.naamEditBox3 = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.imgBox2 = new System.Windows.Forms.PictureBox();
             this.productButton2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.prijsBox2 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.naamEditBox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.imgBox1 = new System.Windows.Forms.PictureBox();
             this.productButton1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.prijsBox1 = new System.Windows.Forms.TextBox();
@@ -72,13 +72,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.naamEditBox1 = new System.Windows.Forms.TextBox();
             this.saveButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // productButton
@@ -136,52 +137,54 @@
             this.prijsBox.Size = new System.Drawing.Size(126, 20);
             this.prijsBox.TabIndex = 4;
             // 
-            // pictureBox1
+            // imgBox
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(103, 128);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.imgBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox.Location = new System.Drawing.Point(103, 128);
+            this.imgBox.Name = "imgBox";
+            this.imgBox.Size = new System.Drawing.Size(126, 120);
+            this.imgBox.TabIndex = 5;
+            this.imgBox.TabStop = false;
+            this.imgBox.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.pictureBox6);
+            this.groupBox1.Controls.Add(this.imgBox5);
             this.groupBox1.Controls.Add(this.productButton5);
             this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.prijsBox5);
             this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.naamEditBox5);
-            this.groupBox1.Controls.Add(this.pictureBox5);
+            this.groupBox1.Controls.Add(this.imgBox4);
             this.groupBox1.Controls.Add(this.productButton4);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.prijsBox4);
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.naamEditBox4);
-            this.groupBox1.Controls.Add(this.pictureBox4);
+            this.groupBox1.Controls.Add(this.imgBox3);
             this.groupBox1.Controls.Add(this.productButton3);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.prijsBox3);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.naamEditBox3);
-            this.groupBox1.Controls.Add(this.pictureBox3);
+            this.groupBox1.Controls.Add(this.imgBox2);
             this.groupBox1.Controls.Add(this.productButton2);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.prijsBox2);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.naamEditBox2);
-            this.groupBox1.Controls.Add(this.pictureBox2);
+            this.groupBox1.Controls.Add(this.imgBox1);
             this.groupBox1.Controls.Add(this.productButton1);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.prijsBox1);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.naamEditBox1);
-            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Controls.Add(this.imgBox);
             this.groupBox1.Controls.Add(this.productButton);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.prijsBox);
@@ -195,13 +198,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bewerk producten";
             // 
-            // pictureBox6
+            // imgBox5
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(747, 427);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox6.TabIndex = 40;
-            this.pictureBox6.TabStop = false;
+            this.imgBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox5.Location = new System.Drawing.Point(747, 427);
+            this.imgBox5.Name = "imgBox5";
+            this.imgBox5.Size = new System.Drawing.Size(126, 120);
+            this.imgBox5.TabIndex = 40;
+            this.imgBox5.TabStop = false;
             // 
             // productButton5
             // 
@@ -258,13 +262,14 @@
             this.naamEditBox5.Size = new System.Drawing.Size(126, 20);
             this.naamEditBox5.TabIndex = 38;
             // 
-            // pictureBox5
+            // imgBox4
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(406, 426);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox5.TabIndex = 33;
-            this.pictureBox5.TabStop = false;
+            this.imgBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox4.Location = new System.Drawing.Point(406, 426);
+            this.imgBox4.Name = "imgBox4";
+            this.imgBox4.Size = new System.Drawing.Size(126, 120);
+            this.imgBox4.TabIndex = 33;
+            this.imgBox4.TabStop = false;
             // 
             // productButton4
             // 
@@ -321,13 +326,14 @@
             this.naamEditBox4.Size = new System.Drawing.Size(126, 20);
             this.naamEditBox4.TabIndex = 31;
             // 
-            // pictureBox4
+            // imgBox3
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(103, 427);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox4.TabIndex = 26;
-            this.pictureBox4.TabStop = false;
+            this.imgBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox3.Location = new System.Drawing.Point(103, 427);
+            this.imgBox3.Name = "imgBox3";
+            this.imgBox3.Size = new System.Drawing.Size(126, 120);
+            this.imgBox3.TabIndex = 26;
+            this.imgBox3.TabStop = false;
             // 
             // productButton3
             // 
@@ -384,13 +390,14 @@
             this.naamEditBox3.Size = new System.Drawing.Size(126, 20);
             this.naamEditBox3.TabIndex = 24;
             // 
-            // pictureBox3
+            // imgBox2
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(747, 128);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
+            this.imgBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox2.Location = new System.Drawing.Point(747, 128);
+            this.imgBox2.Name = "imgBox2";
+            this.imgBox2.Size = new System.Drawing.Size(126, 120);
+            this.imgBox2.TabIndex = 19;
+            this.imgBox2.TabStop = false;
             // 
             // productButton2
             // 
@@ -447,13 +454,14 @@
             this.naamEditBox2.Size = new System.Drawing.Size(126, 20);
             this.naamEditBox2.TabIndex = 17;
             // 
-            // pictureBox2
+            // imgBox1
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(406, 128);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
+            this.imgBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox1.Location = new System.Drawing.Point(406, 128);
+            this.imgBox1.Name = "imgBox1";
+            this.imgBox1.Size = new System.Drawing.Size(126, 120);
+            this.imgBox1.TabIndex = 12;
+            this.imgBox1.TabStop = false;
             // 
             // productButton1
             // 
@@ -521,6 +529,10 @@
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -531,14 +543,14 @@
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -550,37 +562,37 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox naamEditBox;
         private System.Windows.Forms.TextBox prijsBox;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox imgBox;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox imgBox5;
         private System.Windows.Forms.Button productButton5;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox prijsBox5;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox naamEditBox5;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox imgBox4;
         private System.Windows.Forms.Button productButton4;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox prijsBox4;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox naamEditBox4;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox imgBox3;
         private System.Windows.Forms.Button productButton3;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox prijsBox3;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox naamEditBox3;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox imgBox2;
         private System.Windows.Forms.Button productButton2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox prijsBox2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox naamEditBox2;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox imgBox1;
         private System.Windows.Forms.Button productButton1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox prijsBox1;
@@ -588,5 +600,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox naamEditBox1;
         private System.Windows.Forms.Button saveButton;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

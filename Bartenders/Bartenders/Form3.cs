@@ -18,11 +18,6 @@ namespace Bartenders
             InitializeComponent();
         }
 
-        private void DescriptionTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
 
         private void saveButton_Click(object sender, EventArgs e)
         {
@@ -35,6 +30,7 @@ namespace Bartenders
         {
             ((Label)f1.Controls["naamLabel"]).Text = naamEditBox.Text;
             ((Label)f1.Controls["prijsLabel"]).Text = prijsBox.Text;
+            ((PictureBox)f1.Controls["imgBox"]).Text = imgBox.ImageLocation = openFileDialog1.FileName;
         }
 
         private void productButton1_Click(object sender, EventArgs e)
@@ -70,6 +66,12 @@ namespace Bartenders
         private void Form3_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+            imgBox.ImageLocation = openFileDialog1.FileName;
         }
     }
 }

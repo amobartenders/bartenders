@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.adminBtn = new System.Windows.Forms.Button();
-            this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.imgBox = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,40 +37,40 @@
             this.prijsLabel = new System.Windows.Forms.Label();
             this.prijsLabel1 = new System.Windows.Forms.Label();
             this.naamLabel1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.imgBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.prijsLabel2 = new System.Windows.Forms.Label();
             this.naamLabel2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.imgBox2 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.prijsLabel3 = new System.Windows.Forms.Label();
             this.naamLabel3 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.imgBox3 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.prijsLabel4 = new System.Windows.Forms.Label();
             this.naamLabel4 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.imgBox4 = new System.Windows.Forms.PictureBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.prijsLabel5 = new System.Windows.Forms.Label();
             this.naamLabel5 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.imgBox5 = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // adminBtn
@@ -83,13 +83,15 @@
             this.adminBtn.UseVisualStyleBackColor = true;
             this.adminBtn.Click += new System.EventHandler(this.adminBtn_Click);
             // 
-            // pictureBox
+            // imgBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(97, 116);
-            this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox.TabIndex = 12;
-            this.pictureBox.TabStop = false;
+            this.imgBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imgBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox.Location = new System.Drawing.Point(97, 116);
+            this.imgBox.Name = "imgBox";
+            this.imgBox.Size = new System.Drawing.Size(126, 120);
+            this.imgBox.TabIndex = 12;
+            this.imgBox.TabStop = false;
             // 
             // label3
             // 
@@ -161,13 +163,15 @@
             this.naamLabel1.TabIndex = 19;
             this.naamLabel1.Text = "label4";
             // 
-            // pictureBox1
+            // imgBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(393, 120);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
+            this.imgBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imgBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox1.Location = new System.Drawing.Point(393, 120);
+            this.imgBox1.Name = "imgBox1";
+            this.imgBox1.Size = new System.Drawing.Size(126, 120);
+            this.imgBox1.TabIndex = 18;
+            this.imgBox1.TabStop = false;
             // 
             // label6
             // 
@@ -219,13 +223,15 @@
             this.naamLabel2.TabIndex = 25;
             this.naamLabel2.Text = "label4";
             // 
-            // pictureBox2
+            // imgBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(700, 120);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox2.TabIndex = 24;
-            this.pictureBox2.TabStop = false;
+            this.imgBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imgBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox2.Location = new System.Drawing.Point(700, 120);
+            this.imgBox2.Name = "imgBox2";
+            this.imgBox2.Size = new System.Drawing.Size(126, 120);
+            this.imgBox2.TabIndex = 24;
+            this.imgBox2.TabStop = false;
             // 
             // label11
             // 
@@ -277,13 +283,15 @@
             this.naamLabel3.TabIndex = 31;
             this.naamLabel3.Text = "label4";
             // 
-            // pictureBox3
+            // imgBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(97, 418);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox3.TabIndex = 30;
-            this.pictureBox3.TabStop = false;
+            this.imgBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imgBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox3.Location = new System.Drawing.Point(97, 418);
+            this.imgBox3.Name = "imgBox3";
+            this.imgBox3.Size = new System.Drawing.Size(126, 120);
+            this.imgBox3.TabIndex = 30;
+            this.imgBox3.TabStop = false;
             // 
             // label16
             // 
@@ -335,13 +343,15 @@
             this.naamLabel4.TabIndex = 37;
             this.naamLabel4.Text = "label4";
             // 
-            // pictureBox4
+            // imgBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(393, 418);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox4.TabIndex = 36;
-            this.pictureBox4.TabStop = false;
+            this.imgBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imgBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox4.Location = new System.Drawing.Point(393, 418);
+            this.imgBox4.Name = "imgBox4";
+            this.imgBox4.Size = new System.Drawing.Size(126, 120);
+            this.imgBox4.TabIndex = 36;
+            this.imgBox4.TabStop = false;
             // 
             // label21
             // 
@@ -393,13 +403,15 @@
             this.naamLabel5.TabIndex = 43;
             this.naamLabel5.Text = "label4";
             // 
-            // pictureBox5
+            // imgBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(700, 418);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(126, 120);
-            this.pictureBox5.TabIndex = 42;
-            this.pictureBox5.TabStop = false;
+            this.imgBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imgBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.imgBox5.Location = new System.Drawing.Point(700, 418);
+            this.imgBox5.Name = "imgBox5";
+            this.imgBox5.Size = new System.Drawing.Size(126, 120);
+            this.imgBox5.TabIndex = 42;
+            this.imgBox5.TabStop = false;
             // 
             // label26
             // 
@@ -438,37 +450,37 @@
             this.ClientSize = new System.Drawing.Size(977, 643);
             this.Controls.Add(this.prijsLabel5);
             this.Controls.Add(this.naamLabel5);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.imgBox5);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.prijsLabel4);
             this.Controls.Add(this.naamLabel4);
-            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.imgBox4);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.prijsLabel3);
             this.Controls.Add(this.naamLabel3);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.imgBox3);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.prijsLabel2);
             this.Controls.Add(this.naamLabel2);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.imgBox2);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.prijsLabel1);
             this.Controls.Add(this.naamLabel1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.imgBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.prijsLabel);
             this.Controls.Add(this.naamLabel);
-            this.Controls.Add(this.pictureBox);
+            this.Controls.Add(this.imgBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -478,13 +490,13 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "User Interface";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -493,7 +505,7 @@
         #endregion
 
         private System.Windows.Forms.Button adminBtn;
-        private System.Windows.Forms.PictureBox pictureBox;
+        private System.Windows.Forms.PictureBox imgBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -501,31 +513,31 @@
         private System.Windows.Forms.Label prijsLabel;
         private System.Windows.Forms.Label prijsLabel1;
         private System.Windows.Forms.Label naamLabel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox imgBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label prijsLabel2;
         private System.Windows.Forms.Label naamLabel2;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox imgBox2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label prijsLabel3;
         private System.Windows.Forms.Label naamLabel3;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox imgBox3;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label prijsLabel4;
         private System.Windows.Forms.Label naamLabel4;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox imgBox4;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label prijsLabel5;
         private System.Windows.Forms.Label naamLabel5;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox imgBox5;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
