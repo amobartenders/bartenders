@@ -15,19 +15,25 @@ namespace Bartenders
     
     public partial class Form2 : Form
     {
+        public bool connected;
         SerialPort serial;
         public ArduinoCom arduino;
-        public Form2()
-        {
 
+        public Form2( ArduinoCom arduino)
+        {
+            this.arduino = arduino;
+            connected = Form1.connected;
             InitializeComponent();
 
+
         }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (usernameBox.Text == "Admin" && passwordBox.Text == "Admin")
             {
+
                 Form3 f3 = new Form3();
                 this.Hide();
                 f3.ShowDialog();
@@ -49,51 +55,31 @@ namespace Bartenders
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //bACKUP CONNECTS
-            //int num1 = (int)MessageBox.Show("Click ok to connect, this might take a while! Meanwhile the application will be stuck.");
-            //this.arduino = new ArduinoCom("#", "%");
-            //if (this.arduino.ConnectAutomagically())
-            //{
-            //    int num2 = (int)MessageBox.Show("Connected!");
-            //}
-            //else
-            //{
-            //    int num3 = (int)MessageBox.Show("Arduino not found - reboot arduino and try again!");
-            //}
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.arduino = new ArduinoCom("#", "%");
-
-            button3.Text = "Opstarten...";
-            if (this.arduino.ConnectAutomagically())
-            {
-                button3.Text = "Scan je tag.";
+            button3.Text = "Gereed, Scan je tag.";
+            string res = "";
+            while (res == "") {
                 this.arduino.SendMessage("#SCAN_ONCE%");
                 this.arduino.waitForMessage();
-                string res = this.arduino.getTagId(this.arduino.waitForMessage());
+                res = this.arduino.getTagId(this.arduino.waitForMessage());
+            }
 
-                //MessageBox.Show(res);
+            
 
-                if (res == "0x9D0xEC0x9E0x77")
-                {
-                    Form3 f3 = new Form3();
-                    this.Hide();
-                    f3.ShowDialog();
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Gebruiker bestaat niet, probeer het opnieuw");
-                }
+            if (res == "0x9D0xEC0x9E0x77")
+            {
+                Form3 f3 = new Form3();
+                this.Hide();
+                f3.ShowDialog();
+                this.Close();
             }
             else
             {
-                int num3 = (int)MessageBox.Show("Connectie mislukt, probeer het opnieuw!");
-                return;
-            }
-            
+                MessageBox.Show("Gebruiker bestaat niet, probeer het opnieuw");
+            }       
 
         }
 
