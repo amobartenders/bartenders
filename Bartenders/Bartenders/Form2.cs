@@ -15,7 +15,7 @@ namespace Bartenders
     
     public partial class Form2 : Form
     {
-        public bool connected;
+        Form3 form3 = new Form3();
         SerialPort serial;
         public ArduinoCom arduino;
 
@@ -34,9 +34,13 @@ namespace Bartenders
             if (usernameBox.Text == "Admin" && passwordBox.Text == "Admin")
             {
 
-                Form3 f3 = new Form3();
+               
                 this.Hide();
                 f3.ShowDialog();
+                this.Close();
+
+                this.Hide();
+                int num = (int)form3.ShowDialog();
                 this.Close();
             }
             else

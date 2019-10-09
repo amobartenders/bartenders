@@ -7,18 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO.Ports;
 
 namespace Bartenders
 {
     public partial class Form3 : Form
     {
-        Form1 f1 = new Form1();
-        public Form3()
+        
+        SerialPort serial;
+        
+        public Form3(ArduinoCom arduino)
         {
+
+            this.arduino = arduino;
             InitializeComponent();
         }
-
-
+        public ArduinoCom arduino;
+        Form1 f1 = new Form1(arduino);
         private void saveButton_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -71,6 +76,16 @@ namespace Bartenders
         {
             openFileDialog1.ShowDialog();
             imgBox.ImageLocation = openFileDialog1.FileName;
+        }
+
+        private void Form3_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

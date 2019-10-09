@@ -17,9 +17,9 @@ namespace Bartenders
         
         SerialPort serial;
         public ArduinoCom arduino;
-        public bool connected = false;
-        public Form1()
+        public Form1(ArduinoCom arduino)
         {
+            this.arduino = arduino;
             InitializeComponent();
             //connected = Form2.connected;
         }
@@ -34,21 +34,18 @@ namespace Bartenders
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (connected == false)
-            {
                 this.arduino = new ArduinoCom("#", "%");
                 if (this.arduino.ConnectAutomagically())
                 {
                     MessageBox.Show("Connected!");
-                    connected = true;
+                    
                 }
                 else
                 {
                     MessageBox.Show("Arduino niet gevonden, probeer opnieuw");
                     this.Close();
                 }
-            }
-            
+                
         }
     }
 }
