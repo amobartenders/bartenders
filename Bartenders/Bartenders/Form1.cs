@@ -21,7 +21,7 @@ namespace Bartenders
         public Form1()
         {
             InitializeComponent();
-            connected = Form2.connected;
+            //connected = Form2.connected;
         }
 
         private void adminBtn_Click(object sender, EventArgs e)

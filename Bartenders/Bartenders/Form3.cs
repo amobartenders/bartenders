@@ -30,7 +30,6 @@ namespace Bartenders
         {
             ((Label)f1.Controls["naamLabel"]).Text = naamEditBox.Text;
             ((Label)f1.Controls["prijsLabel"]).Text = prijsBox.Text;
-            ((PictureBox)f1.Controls["imgBox"]).Text = imgBox.ImageLocation = openFileDialog1.FileName;
         }
 
         private void productButton1_Click(object sender, EventArgs e)

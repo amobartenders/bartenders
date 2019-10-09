@@ -22,7 +22,7 @@ namespace Bartenders
         public Form2( ArduinoCom arduino)
         {
             this.arduino = arduino;
-            connected = Form1.connected;
+            //connected = Form1.connected;
             InitializeComponent();
 
 
