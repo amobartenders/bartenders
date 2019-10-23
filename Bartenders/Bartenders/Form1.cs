@@ -11,22 +11,23 @@ using System.IO.Ports;
 
 namespace Bartenders
 {
+
     public partial class Form1 : Form
     {
 
-        
+
         SerialPort serial;
-        public ArduinoCom arduino;
-        public Form1(ArduinoCom arduino)
+        public Form1()
         {
-            this.arduino = arduino;
+
             InitializeComponent();
             //connected = Form2.connected;
         }
 
+
         private void adminBtn_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2(arduino);
+            Form2 f2 = new Form2();
             this.Hide();
             f2.ShowDialog();
             this.Close();
@@ -34,8 +35,8 @@ namespace Bartenders
 
         private void Form1_Load(object sender, EventArgs e)
         {
-                this.arduino = new ArduinoCom("#", "%");
-                if (this.arduino.ConnectAutomagically())
+                
+                if (Program.arduino.ConnectAutomagically())
                 {
                     MessageBox.Show("Connected!");
                     
