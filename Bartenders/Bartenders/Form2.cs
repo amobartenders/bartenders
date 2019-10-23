@@ -60,8 +60,8 @@ namespace Bartenders
         private void button3_Click(object sender, EventArgs e)
         {
             button3.Text = "Gereed, Scan je tag.";
-            string res = "";
-            while (res.Length <= 10) {
+            string res = "l";
+            while (res.Length <= 10 || res == null) {
                 Program.arduino.SendMessage("#SCAN_ONCE%");
                 Program.arduino.waitForMessage();
                 res = Program.arduino.getTagId(Program.arduino.waitForMessage());

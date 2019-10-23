@@ -36,16 +36,7 @@ namespace Bartenders
         private void Form1_Load(object sender, EventArgs e)
         {
                 
-                if (Program.arduino.ConnectAutomagically())
-                {
-                    MessageBox.Show("Connected!");
-                    
-                }
-                else
-                {
-                    MessageBox.Show("Arduino niet gevonden, probeer opnieuw");
-                    this.Close();
-                }
+                
                 
         }
 

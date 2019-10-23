@@ -24,7 +24,11 @@ namespace Bartenders
         private void saveButton_Click(object sender, EventArgs e)
         {
             this.Hide();
+            using (Form1 f1 = new Form1())
+            f1.ShowDialog();
+            Show();
             this.Close();
+            
         }
 
         private void productButton_Click(object sender, EventArgs e)
