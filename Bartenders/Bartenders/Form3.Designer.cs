@@ -139,6 +139,7 @@
             // 
             // imgBox
             // 
+            this.imgBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imgBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imgBox.Location = new System.Drawing.Point(103, 128);
             this.imgBox.Name = "imgBox";
@@ -201,6 +202,7 @@
             // 
             // imgBox5
             // 
+            this.imgBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imgBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imgBox5.Location = new System.Drawing.Point(747, 427);
             this.imgBox5.Name = "imgBox5";
@@ -265,6 +267,7 @@
             // 
             // imgBox4
             // 
+            this.imgBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imgBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imgBox4.Location = new System.Drawing.Point(406, 426);
             this.imgBox4.Name = "imgBox4";
@@ -329,6 +332,7 @@
             // 
             // imgBox3
             // 
+            this.imgBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imgBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imgBox3.Location = new System.Drawing.Point(103, 427);
             this.imgBox3.Name = "imgBox3";
@@ -393,6 +397,7 @@
             // 
             // imgBox2
             // 
+            this.imgBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imgBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imgBox2.Location = new System.Drawing.Point(747, 128);
             this.imgBox2.Name = "imgBox2";
@@ -457,6 +462,7 @@
             // 
             // imgBox1
             // 
+            this.imgBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imgBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imgBox1.Location = new System.Drawing.Point(406, 128);
             this.imgBox1.Name = "imgBox1";
@@ -522,7 +528,7 @@
             // saveButton
             // 
             this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saveButton.Location = new System.Drawing.Point(418, 639);
+            this.saveButton.Location = new System.Drawing.Point(431, 639);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(104, 23);
             this.saveButton.TabIndex = 7;
