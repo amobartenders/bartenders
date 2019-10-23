@@ -11,17 +11,13 @@ using System.IO.Ports;
 
 
 namespace Bartenders
-{
-    
+{   
     public partial class Form2 : Form
     {
-        Form3 form3 = new Form3();
-        SerialPort serial;
-        public ArduinoCom arduino;
+        Form3 f3 = new Form3();
 
-        public Form2( ArduinoCom arduino)
+        public Form2()
         {
-            this.arduino = arduino;
             //connected = Form1.connected;
             InitializeComponent();
 
@@ -40,7 +36,7 @@ namespace Bartenders
                 this.Close();
 
                 this.Hide();
-                int num = (int)form3.ShowDialog();
+                int num = (int)f3.ShowDialog();
                 this.Close();
             }
             else
@@ -65,24 +61,24 @@ namespace Bartenders
         {
             button3.Text = "Gereed, Scan je tag.";
             string res = "";
-            while (res == "") {
-                this.arduino.SendMessage("#SCAN_ONCE%");
-                this.arduino.waitForMessage();
-                res = this.arduino.getTagId(this.arduino.waitForMessage());
+            while (res.Length <= 10) {
+                Program.arduino.SendMessage("#SCAN_ONCE%");
+                Program.arduino.waitForMessage();
+                res = Program.arduino.getTagId(Program.arduino.waitForMessage());
             }
 
             
 
             if (res == "0x9D0xEC0x9E0x77")
             {
-                Form3 f3 = new Form3();
                 this.Hide();
                 f3.ShowDialog();
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Gebruiker bestaat niet, probeer het opnieuw");
+                MessageBox.Show(res);
+                //MessageBox.Show("Gebruiker bestaat niet, probeer het opnieuw");
             }       
 
         }

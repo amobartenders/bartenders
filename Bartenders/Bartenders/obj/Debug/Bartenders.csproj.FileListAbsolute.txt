@@ -32,3 +32,21 @@ C:\Gitkraken\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.exe
 C:\Gitkraken\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.pdb
 C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\bin\Debug\MySql.Data.xml
 C:\Users\hfm\OneDrive\Documents\school map\programmeren en coderen C#\leerjaar 2\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.CopyComplete
+C:\Gitkraken\bartenders\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csprojAssemblyReference.cache
+C:\Gitkraken\bartenders\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.Form1.resources
+C:\Gitkraken\bartenders\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.Form2.resources
+C:\Gitkraken\bartenders\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.Form3.resources
+C:\Gitkraken\bartenders\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.Properties.Resources.resources
+C:\Gitkraken\bartenders\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.GenerateResource.cache
+C:\Gitkraken\bartenders\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.CoreCompileInputs.cache
+C:\Gitkraken\bartenders\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.exe
+C:\Gitkraken\bartenders\bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.pdb
+C:\Gitkraken\bartenders\Bartenders\Bartenders\Bartenders\bin\Debug\ser.mdf
+C:\Gitkraken\bartenders\Bartenders\Bartenders\Bartenders\bin\Debug\ser_log.ldf
+C:\Gitkraken\bartenders\Bartenders\Bartenders\Bartenders\bin\Debug\Bartenders.exe.config
+C:\Gitkraken\bartenders\Bartenders\Bartenders\Bartenders\bin\Debug\Bartenders.exe
+C:\Gitkraken\bartenders\Bartenders\Bartenders\Bartenders\bin\Debug\Bartenders.pdb
+C:\Gitkraken\bartenders\Bartenders\Bartenders\Bartenders\bin\Debug\Google.Protobuf.dll
+C:\Gitkraken\bartenders\Bartenders\Bartenders\Bartenders\bin\Debug\MySql.Data.dll
+C:\Gitkraken\bartenders\Bartenders\Bartenders\Bartenders\bin\Debug\MySql.Data.xml
+C:\Gitkraken\bartenders\Bartenders\Bartenders\Bartenders\obj\Debug\Bartenders.csproj.CopyComplete

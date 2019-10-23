@@ -6,16 +6,22 @@ using System.Windows.Forms;
 
 namespace Bartenders
 {
-    static class Program
+
+    public class Program
     {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+
+        public static ArduinoCom arduino;
+
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            arduino = new ArduinoCom("#", "%");
             Application.Run(new Form1());
         }
     }
