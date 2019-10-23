@@ -22,7 +22,24 @@ namespace Bartenders
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             arduino = new ArduinoCom("#", "%");
-            Application.Run(new Form1());
+            if (Program.arduino.ConnectAutomagically())
+            {
+                MessageBox.Show("Connected!");
+                Application.Run(new Form1());
+            }
+            else
+            {
+                DialogResult dialogResult = MessageBox.Show("Waarschuwing", "Kan geen verbinding maken, toch doorgaan?", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    Application.Run(new Form1());
+                }
+                else if (dialogResult == DialogResult.No)
+                {
+                    return;
+                }
+            }
+            
         }
     }
 }
