@@ -197,6 +197,7 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bewerk producten";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // imgBox5
             // 
@@ -543,6 +544,7 @@
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.imgBox)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
