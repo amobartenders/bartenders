@@ -29,10 +29,11 @@ namespace Bartenders
             }
             else
             {
-                DialogResult dialogResult = MessageBox.Show("Waarschuwing", "Kan geen verbinding maken, toch doorgaan?", MessageBoxButtons.YesNo);
+                DialogResult dialogResult = MessageBox.Show("Kan geen verbinding maken, toch doorgaan?", "Waarschuwing", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
                     Application.Run(new Form1());
+                    
                 }
                 else if (dialogResult == DialogResult.No)
                 {

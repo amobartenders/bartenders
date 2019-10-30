@@ -61,10 +61,19 @@ namespace Bartenders
         {
             button3.Text = "Gereed, Scan je tag.";
             string res = "l";
-            while (res.Length <= 10 || res == null) {
-                Program.arduino.SendMessage("#SCAN_ONCE%");
-                Program.arduino.waitForMessage();
-                res = Program.arduino.getTagId(Program.arduino.waitForMessage());
+            try
+            {
+                while (res.Length <= 10 || res == null)
+                {
+                    Program.arduino.SendMessage("#SCAN_ONCE%");
+                    Program.arduino.waitForMessage();
+                    res = Program.arduino.getTagId(Program.arduino.waitForMessage());
+                }
+            }
+            catch (System.NullReferenceException)
+            {
+                res = "l";
+                MessageBox.Show("Fout, probeer opnieuw");
             }
 
             

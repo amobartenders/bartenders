@@ -34,13 +34,11 @@ namespace Bartenders
 
         private void productButton_Click(object sender, EventArgs e)
         {
-            if(naamEditBox.Text != null || prijsBox.Text != null)
+
+            if(naamEditBox.Text != null || prijsBox.Text == null)
             {
-                string naam = naamEditBox.Text;
-                string prijs = prijsBox.Text;
-
+                public static string naam = naamEditBox.Text;
             }
-
             //((Label)f1.Controls["prijsLabel"]).Text = prijsBox.Text;
         }
 
