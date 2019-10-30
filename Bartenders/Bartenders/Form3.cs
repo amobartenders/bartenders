@@ -29,11 +29,18 @@ namespace Bartenders
             Show();
             this.Close();
             
+
         }
 
         private void productButton_Click(object sender, EventArgs e)
         {
-            //((Label)f1.Controls["naamLabel"]).Text = naamEditBox.Text;
+            if(naamEditBox.Text != null || prijsBox.Text != null)
+            {
+                string naam = naamEditBox.Text;
+                string prijs = prijsBox.Text;
+
+            }
+
             //((Label)f1.Controls["prijsLabel"]).Text = prijsBox.Text;
         }
 
